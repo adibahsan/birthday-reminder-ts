@@ -11,7 +11,7 @@ export const BirthdayList = ({ people }: any) => {
             <img src={image} alt={name} />
             <div>
               <h4>{name}</h4>
-              <p>{age}</p>
+              <p>{age} years</p>
             </div>
           </article>
         );
