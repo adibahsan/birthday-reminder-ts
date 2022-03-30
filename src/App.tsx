@@ -1,13 +1,17 @@
 
 import './App.css';
+import { BirthdayList } from './components/BirthdayList/BirthdayList';
 import data from './data/data';
+
 
 
 console.log(data);
 function App() {
   return (
-    <div className="App">
-    </div>
+   <main>
+     <h3>Birthday Lists</h3>
+     <BirthdayList people = {data}/> 
+   </main>
   );
 }
 
