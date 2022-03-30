@@ -1,3 +1,9 @@
+# The Birthday Reminder App
+
+This app is inspired by the design from [UI DESIGN DAILY](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042). Written in typescript, I took a few creative liberties to change some the stylings of the app. Cheers!!!!
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
