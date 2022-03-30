@@ -4,7 +4,7 @@ export const BirthdayList = ({ people }: any) => {
   return (
     <>
       {people.map((item: any) => {
-        console.log(item);
+        // console.log(item);
         const { id, name, age, image } = item;
         return (
           <article key={id} className="person">
