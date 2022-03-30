@@ -1,25 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import "./App.css";
+import { BirthdayList } from "./components/BirthdayList/BirthdayList";
+import data from "./data/data";
 
+// console.log(data);
 function App() {
+  const [people, setPeople] = useState(data);
+  const [buttonTitle, setButtonTitle] = useState<string>("Clear All");
+  const buttonToggler = () => {
+    if (people.length !== 0) {
+      setPeople([]);
+      setButtonTitle("Reveal All");
+    } else {
+      setPeople(data);
+      setButtonTitle("Clear All");
+    }
+  };
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <main>
+      <section className="container">
+        <h3 style={{textAlign: "center"}}>Showing Birthdays of {people.length} People </h3>
+        <BirthdayList people={people} />
+        <button onClick={buttonToggler}>{buttonTitle}</button>
+      </section>
+    </main>
   );
 }
 
