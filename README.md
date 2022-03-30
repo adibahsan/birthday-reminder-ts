@@ -1,8 +1,8 @@
 # The Birthday Reminder App
 
-This app is inspired by the design from [UI DESIGN DAILY](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042). Written in typescript, I took a few creative liberties to change some of the stylings of the app. Feel free to put any review on the app. Cheers!!!!
+This [Birthday Reminder](https://adib-birthday-reminder-app.netlify.app/) app is inspired by the design from [UI DESIGN DAILY](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042). Written in typescript, I took a few creative liberties to change some of the stylings of the app. You can see the latest version of the app from [here](https://adib-birthday-reminder-app.netlify.app/).
 
-
+Feel free to review & criticise my work. Cheers!!!
 
 # Getting Started with Create React App
 
