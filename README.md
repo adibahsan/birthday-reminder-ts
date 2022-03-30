@@ -1,6 +1,6 @@
 # The Birthday Reminder App
 
-This app is inspired by the design from [UI DESIGN DAILY](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042). Written in typescript, I took a few creative liberties to change some the stylings of the app. Cheers!!!!
+This app is inspired by the design from [UI DESIGN DAILY](https://www.uidesigndaily.com/posts/sketch-birthdays-list-card-widget-day-1042). Written in typescript, I took a few creative liberties to change some of the stylings of the app. Feel free to put any review on the app. Cheers!!!!
 
 
 
